@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .chatContainer {
+      width: 95%;
+      height: 95%;
+  }
+
+  .header {
+      padding: 0 10px;
+  }
+
+  #chatInput {
+      font-size: 16px;
+  }
+
+  .sendBtn {
+      width: 80px;
+      font-size: 20px;
+  }
+}
